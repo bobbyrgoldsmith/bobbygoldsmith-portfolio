@@ -75,7 +75,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="px-8 py-3 rounded-lg border border-emerald-500/30 text-emerald-400 font-medium hover:bg-emerald-500/10 transition-colors text-center"
               >
-                Newsletter
+                Bashmatica!
               </a>
             </motion.div>
 
