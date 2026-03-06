@@ -7,24 +7,24 @@ import { SpeedInsights } from '@vercel/speed-insights/next'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bobby Goldsmith — Technical Architect & Automation Engineer',
-  description: 'Portfolio of Bobby Goldsmith — 13+ years building automation, QA, and DevOps solutions. Principal Consultant at NodeBridge Automation Solutions.',
-  keywords: 'Bobby Goldsmith, Technical Architect, Automation Engineer, QA Lead, DevOps, MCP Tools, Playwright, NodeBridge, Portfolio',
-  authors: [{ name: 'Bobby Goldsmith' }],
-  creator: 'Bobby Goldsmith',
+  title: 'Bobby R. Goldsmith — Technical Architect & Automation Engineer',
+  description: 'Portfolio of Bobby R. Goldsmith — 13+ years building automation, QA, and DevOps solutions. Principal Consultant at NodeBridge Automation Solutions.',
+  keywords: 'Bobby R. Goldsmith, Technical Architect, Automation Engineer, QA Lead, DevOps, MCP Tools, Playwright, NodeBridge, Portfolio',
+  authors: [{ name: 'Bobby R. Goldsmith' }],
+  creator: 'Bobby R. Goldsmith',
   metadataBase: new URL('https://bobbygoldsmith.dev'),
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Bobby Goldsmith — Technical Architect & Automation Engineer',
+    title: 'Bobby R. Goldsmith — Technical Architect & Automation Engineer',
     description: '13+ years building automation, QA, and DevOps solutions. Principal Consultant at NodeBridge Automation Solutions.',
     url: 'https://bobbygoldsmith.dev',
-    siteName: 'Bobby Goldsmith',
+    siteName: 'Bobby R. Goldsmith',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bobby Goldsmith — Technical Architect & Automation Engineer',
+    title: 'Bobby R. Goldsmith — Technical Architect & Automation Engineer',
     description: '13+ years building automation, QA, and DevOps solutions. Principal Consultant at NodeBridge Automation Solutions.',
   },
   robots: {
@@ -54,7 +54,7 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Bobby Goldsmith",
+              "name": "Bobby R. Goldsmith",
               "url": "https://bobbygoldsmith.dev",
               "jobTitle": "Technical Architect & Automation Engineer",
               "worksFor": {

@@ -69,6 +69,14 @@ export default function Hero() {
               >
                 Download Resume
               </a>
+              <a
+                href="https://bashmatica.beehiiv.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-8 py-3 rounded-lg border border-emerald-500/30 text-emerald-400 font-medium hover:bg-emerald-500/10 transition-colors text-center"
+              >
+                Newsletter
+              </a>
             </motion.div>
 
             <motion.div
@@ -108,7 +116,7 @@ export default function Hero() {
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full blur-xl opacity-30" />
               <Image
                 src="/headshot.jpg"
-                alt="Bobby Goldsmith"
+                alt="Bobby R. Goldsmith"
                 width={320}
                 height={320}
                 className="relative rounded-full border-2 border-cyan-500/30 object-cover w-64 h-64 lg:w-80 lg:h-80"

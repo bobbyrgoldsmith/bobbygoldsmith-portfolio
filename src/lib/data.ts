@@ -1,5 +1,5 @@
 export const personalInfo = {
-  name: 'Bobby Goldsmith',
+  name: 'Bobby R. Goldsmith',
   title: 'Technical Architect & Automation Engineer',
   tagline: 'Building intelligent automation at the intersection of QA, DevOps, and AI.',
   email: 'bobby@bobbygoldsmith.dev',
